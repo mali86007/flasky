@@ -5,7 +5,6 @@ from ..email import send_email
 from . import main
 from .forms import NameForm
 
-
 @main.route('/', methods=['GET', 'POST'])
 def index():
     form = NameForm()
